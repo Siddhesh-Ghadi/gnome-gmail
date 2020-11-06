@@ -24,6 +24,7 @@ matrix:
         install:
               - pip install six
     - <<: *config_1
+      python: "3.9"
       arch: ppc64le      
 
 script:
